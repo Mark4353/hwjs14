@@ -57,15 +57,15 @@ const fetchCountries = _.debounce(async (term) => {
     }
     
 
-    renderResults(data);
+    renderResults(data) ;
   } catch (error) {
     console.error("Помилка:", error);
-    PNotify.error({ text: "Не вдалося завантажити дані.", delay: 2000 });
+    PNotify.error({ text : "Не вдалося завантажити дані.", delay: 2000 });
   }
-}, 500);
+}, 500); 
 
-input.addEventListener("input", (e) => { 
-  fetchCountries(e.target.value); 
-}); 
+input.addEventListener("input", (e) => {  
+  fetchCountries(e.target.value);  
+});  
 
 
