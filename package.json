@@ -1,0 +1,31 @@
+{
+  "name": "hwjs14",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Mark4353/hwjs14#readme",
+  "bugs": {
+    "url": "https://github.com/Mark4353/hwjs14/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark4353/hwjs14.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build",
+    "prederloy": "npm run build",
+    "deploys": "gh-pages-deploy"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "localhost": "^0.4.1",
+    "npm": "^11.2.0"
+  }
+}
